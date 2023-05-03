@@ -5,6 +5,6 @@ const user = 'John'
 
 /* This is the lastname of the user */
 
-let surname = 'Smith'
+const surname = 'Smith'
 
-console.log('user, surname')
+console.log(user, surname)
