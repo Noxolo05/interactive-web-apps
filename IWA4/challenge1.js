@@ -1,33 +1,34 @@
 const date = 2050
 const status = 'student'
-const count = 0
+let count = 0
 
-if (date = 2050) {
+if (date == 2050) {
 	console.log("January", 'New Year’s Day')
 	console.log("March", 'Human Rights Day')
-	date = 'April'
+
+	let date = 'April'
 	console.log(date, 'Family Day')
 	console.log(date, 'Freedom Day')
-	let count = count + 4
 
-	if (status = "student") {
+	// let count = count + 4
+
+	function value (student) {
 	  console.log('June', 'Youth Day')
-		let count = count + 1
+
+		// let count = count + 1
   }
 
 	console.log('August', 'Women’s Day')
 	console.log('September', 'Heritage Day')
+
+   // let count = count + 3
 	date = 'December'
 	console.log(date, 'Day of Reconciliation')
-	let limit = count + 3
-
-	if (status = "parent") {
-	  console.log(date, 'Christmas Day')
-		let count = count + 1
-  }
-
+	console.log(date, 'Christmas Day')
 	console.log(date, 'Day of Goodwill')
-	let value = count + 1
+
+	// let count = count + 1
+	count = '9'
 }
 
 console.log('Your status is:', status)
