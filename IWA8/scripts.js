@@ -15,13 +15,13 @@ const sarahPostal = '0310'
 
 const leo = {
 	name: leoName,
-	balance: leoBalance,
+	balance: Number(leoBalance),
 	access_id: '47afb389-8014-4d0b-aff3-e40203d2107f',
 	age: 24,
 	address: {
-		number: leoNumber,
+		number: Number(leoNumber),
 		street: leoStreet,
-		postal_code: leoPostal
+		postal_code: Number(leoPostal)
 	}
 }
 
@@ -29,11 +29,11 @@ const sarah = {
 	name: sarahName + sarahSurname,
 	age: 62,
 	access_id: '6b279ae5-5657-4240-80e9-23f6b635f7a8',
-	balance: sarahBalance,
+	balance: Number(sarahBalance),
 	address: {
-		number: sarahNumber,
+		number: Number(sarahNumber),
 		street: sarahStreet,
-		postal_code: sarahPostal
+		postal_code: Number(sarahPostal)
 	}
 }
 
